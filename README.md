@@ -1,4 +1,4 @@
-# 💻 LES: Week 5: Bootstrap & Layout
+# 💻 LES: Week 5: Bootstrap & Content
 
 ## 🥅 Overzicht en Leerdoelen
 

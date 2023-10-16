@@ -1,4 +1,4 @@
-# 💻 LES: W4 - HTML & Bootstrap - Oefening 01
+# 💻 LES: W5 - Bootstrap & Content - Oefening 01
 
 ## 🛠️ Opdrachten
 
