@@ -3,9 +3,9 @@
 ## 🥅 overzicht en leerdoelen
 
 Tijdens de lessen van deze week leer je:
- - bootstrap Grid gebruiken
- - wat bootstrap Grid breakpoints zijn
- - bootstrap kleuren gebruiken
+ - Bootstrap grid gebruiken
+ - wat Bootstrap grid breakpoints zijn
+ - Bootstrap kleuren gebruiken
  - eigen CSS toevoegen
 
 ## 🔍 week 05: Bootstrap & content
