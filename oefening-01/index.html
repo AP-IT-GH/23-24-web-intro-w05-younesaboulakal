@@ -22,8 +22,8 @@
 </head>
 
 <body class="p-3 m-0 border-0 bd-example">
-  <nav class="">
-    <a class="" href="#"><img src="" alt="Koffie & co" width="100" height="100">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <a class="navbar-brand" href="#"><img src="assets/coffee.png" alt="Koffie & co" width="100" height="100">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,42 +31,42 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="">
-          <a class=" active" aria-current="page" href="#">home</a>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">home</a>
         </li>
-        <li class="">
-          <a class="" href="#">shop</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">shop</a>
         </li>
-        <li class=" dropdown">
-          <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             dropdown
           </a>
-          <ul class="">
-            <li><a class="" href="#">subpagina 1</a></li>
-            <li><a class="" href="#">subpagina 2</a></li>
-            <li><a class="" href="#">subpagina 3</a></li>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">subpagina 1</a></li>
+            <li><a class="dropdown-item" href="#">subpagina 2</a></li>
+            <li><a class="dropdown-item" href="#">subpagina 3</a></li>
           </ul>
         </li>
-        <li class="">
-          <a class="" href="#">contact</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">contact</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
-        <button class="btn" type="submit">zoeken</button>
+        <button class="btn btn-outline-success" type="submit">zoeken</button>
       </form>
     </div>
   </nav>
 
   <header class="m-5">
-    <h1 class="display-2">may the coffee<br>be with you</h1>
+    <h1 class="display-2 text-center koffiebruin ">may the coffee<br>be with you</h1>
   </header>
 
   <div class="container">
     <div class="row">
-      <main class="">
+      <main class="col-md-9">
         <section id="shopintro" class="row">
-          <article class="">
+          <article class="col-md-12 m-3">
             <h2 class="">shop</h2>
             <p>Stap binnen in onze online koffie-oase, waar elke boon een verhaal vertelt en elke slok een reis is door
               smaakvolle aroma's. Ontdek een uitgelezen selectie van zorgvuldig geselecteerde koffiebonen van over de
@@ -79,7 +79,7 @@
           <hr>
 
           <article class="shop-item">
-            <h2 class="">Illy</h2>
+            <h2 class="text-uppercase fs-4 fw-bolder pt-3">Illy</h2>
             <p class="h6 small">donkere branding</p>
             <a href="#" rel="noopener">
               <figure>
@@ -89,7 +89,7 @@
               </figure>
             </a>
           </article>
-          <article class="shop-item">
+          <article class=" col-12 col-sm-6 col-md-4  shop-item">
             <h2 class="">Lavazza</h2>
             <p class="h6 small">aromatische koffiebonen</p>
             <a href="#" rel="noopener">
@@ -99,7 +99,7 @@
               </figure>
             </a>
           </article>
-          <article class="shop-item">
+          <article class="col-12 col-sm-6 col-md-4 shop-item">
             <h2 class="">Starbucks</h2>
             <p class="h6 small">dé koffiemelange</p>
             <a href="#" rel="noopener">
@@ -119,7 +119,7 @@
               </figure>
             </a>
           </article>
-          <article class="shop-item">
+          <article class="col-12 col-sm-6 col-md-4 shop-item">
             <h2 class="">koffiemolen 2</h2>
             <p class="h6 small">maal ze snel fijn</p>
             <a href="#" rel="noopener">
@@ -129,7 +129,7 @@
               </figure>
             </a>
           </article>
-          <article class="shop-item">
+          <article class="col-12 col-sm-6 col-md-4 shop-item">
             <h2 class="">koffiemolen 3</h2>
             <p class="h6 small">the old fashion way</p>
             <a href="#" rel="noopener">
